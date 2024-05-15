@@ -1,0 +1,106 @@
+body {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #509BDF;
+}
+
+/* Add button and input text box */
+input[type="text"] {
+  font-size: 1em;
+  width: 30%;
+  padding: 6px;
+  margin: 10px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+input[type="button"] {
+  font-size: 1.1em;
+  margin: -6px 4px 0px 0px;
+}
+
+#addButton {
+  padding: 4px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+li {
+  list-style-type: none;
+  background-color: #509BDF;
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 10px 0px 5px 5px;
+  width: 40%;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 1em;
+}
+
+ul {
+  padding-left: 0;
+}
+
+/* Checkmark button */
+.done {
+  background-color: #c5d888;
+  border-radius: 3px;
+  width: 1.7em;
+  height: 1.7em;
+}
+
+/* X button */
+.remove {
+  background-color: #d88888;
+  border-radius: 3px;
+  width: 1.7em;
+  height: 1.7em;
+}
+
+/* ! button */
+.important {
+  background-color: #f7dc55;
+  border-radius: 3px;
+  width: 1.7em;
+  height: 1.7em;
+}
+
+/* For when then task is marked as finished */
+li.finished {
+  background-color: #A7CDEF;
+  text-decoration: line-through;
+}
+
+/* For when a task is marked as important */
+li.isimportant {
+  background-color: #f7dc55;
+}
+
+/* About me button */
+#aboutbutton {
+  border-radius: 5% / 25%;
+  font-size: 0.9em;
+  padding: 5px;
+}
+
+.aboutcolor {
+  background-color: #509BDF;
+  border-radius: 5% / 25%;
+  font-size: 0.9em;
+  padding: 5px;
+}
+
+
+/* About me section */
+#divabout {
+  text-align: left;
+  font-size: 0.9em;
+  width: 40.5%;
+  margin: 0 auto;
+  padding: 1em 0em 0em;
+}
